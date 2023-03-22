@@ -6,6 +6,7 @@ https://chat-gpt-three-black.vercel.app/
 ## Run the development server:
 
 ```bash
+touch .env.local  
 npm run dev
 ```
 ## Development stack:
