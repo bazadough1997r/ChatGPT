@@ -1,6 +1,6 @@
 ## ChatGPT Clone
 
-ChatGPT; is an artificial intelligence chatbot clone built by Rawan Bazadough!
+ChatGPT; is an artificial intelligence chatbot clone built by Rawan Bazadough!  
 https://chat-gpt-three-black.vercel.app/
 
 ## Run the development server:
