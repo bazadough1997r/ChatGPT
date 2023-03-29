@@ -8,7 +8,7 @@ const query = async (prompt: string, chatId: string, model: string) => {
       temperature: 0.7, // creative answers
       top_p: 0.9, // logical answers
       max_tokens: 500,
-      frequency_penalty: 0.2, // idk what exactly its function
+      frequency_penalty: 0, // idk what exactly its function
       presence_penalty: 0, // idk what exactly its function
     })
     .then((res) => res.data.choices[0].text)
