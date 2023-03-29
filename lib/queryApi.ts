@@ -5,7 +5,7 @@ const query = async (prompt: string, chatId: string, model: string) => {
     .createCompletion({
       model,
       prompt,
-      temperature: 0.9, // creative answers
+      temperature: 0, // creative answers
       top_p: 1, // logical answers
       max_tokens: 1000,
       frequency_penalty: 0, // idk what exactly its function
